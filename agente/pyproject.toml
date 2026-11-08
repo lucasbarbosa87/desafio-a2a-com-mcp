@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agente-central-de-salas"
+version = "1.0.0"
+description = "Agente A2A (v1.0, JSON-RPC) que e host MCP do servidor da Central de Salas"
+requires-python = ">=3.10"
+dependencies = [
+  "a2a-sdk[http-server]==1.3.0",
+  "mcp==2.3.0",
+  "uvicorn==0.54.0",
+]
+
+[tool.setuptools]
+py-modules = ["agente", "cliente_mcp", "pedido"]
