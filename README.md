@@ -137,10 +137,10 @@ A ponte inteira fica em `ExecutorDeReservas`, em [agente/agente.py](agente/agent
 
 ## Saída do validador
 
-Última execução, com os dois processos recém-iniciados a partir de um clone limpo:
+Última execução, a partir de um `git clone` deste fork numa pasta limpa, seguindo só este README, com `PYTHON=python3.10 ./instalar.sh` e os dois processos recém-iniciados:
 
 ```
-trace-id desta execucao: 6663eacde227df13f5d1a836a1c93241
+trace-id desta execucao: 21fc80f287aeca93b4b0f06fcf8f199b
 procure esse valor no stderr do servidor MCP para conferir a propagacao do traceparent.
 
 PASS 01 tools/list traz as tres tools
